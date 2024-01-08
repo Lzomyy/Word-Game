@@ -2,6 +2,7 @@
 // var inputs2 = document.querySelector(".inputss");
 // var inputs3 = document.querySelector(".inputsss");
 
+
 // var hint = document.querySelector(".hint");
 // var tryy = document.getElementById("try");
 // var tries = 3;
@@ -158,6 +159,8 @@
 var inputs1 = document.querySelector(".inputs");
 var inputs2 = document.querySelector(".inputss");
 var inputs3 = document.querySelector(".inputsss");
+
+var again = document.getElementById("again");
 
 var hint = document.querySelector(".hint");
 var tryy = document.getElementById("try");
@@ -324,3 +327,7 @@ function endGame() {
     inputs3Array[i].setAttribute("disabled", "disabled");
   }
 }
+
+again.addEventListener("click", function () {
+  location.reload();
+});
