@@ -83,3 +83,7 @@ input:focus {
 .rule h5:nth-child(3) {
     background-color: #009688;
 }
+
+#again {
+    cursor: pointer;
+}
